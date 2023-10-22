@@ -27,6 +27,15 @@
         .text-primary{
             color: #FD6E0A;
         }
+        .btn-ec{
+           background-color: #FD6E0A;
+           border: 0;
+            font-size: 20px;
+            color: white;
+            font-weight: 700;
+            padding: 15px 35px;
+           
+        }
         .btn-primary{
             border-radius: 5px;
             background: #FD6E0A;
@@ -52,11 +61,56 @@
         }
         .header{
             background-color: #FFF8F3;
+            background-image: url('../images/header_bg.png');
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            
+        }
+        .banner-{
+            padding:  30px 30px 0px 150px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .banner-greeting{
+            font-size: 45px;
+            color: var(--Dark-02, #474747);
+            margin-bottom:  0;
+
+        }
+        .banner-title{
+            font-size: 85px;
+            font-weight: 700; 
+            margin-top: 5px;
+            margin-bottom: 20px;
         }
         .banner{
-            padding:  30px 30px 30px 150px;
-            display: flex;
+            margin-bottom: 30px;
+           
         }
+        .banner-content{
+            max-width: 500px;
+        }
+        .about{
+            padding: 130px;
+            border-radius: 10px;
+            background-color: #FFF8F3;
+            margin:130px ;
+        }
+        .section-title{
+            color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+        }
+        .section-description{
+            color: #757575;
+text-align: center;
+font-size: 18px;
+
+        }
+
     </style>
 </head>
 <body>
@@ -69,12 +123,12 @@
            <li><button class="btn-primary">Hire Me</button></li>
         </ul>
      </nav>
-     <div class="banner">
-        <div>
+     <div class="banner-">
+        <div class="banner-content">
             <h3 class="banner-greeting">Hi, I am</h3>
             <h1 class="banner-title">Mary Hardy</h1>
-            <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-            <button class="btn-primary">Download CV</button>
+<p class="banner">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+            <button class="btn-ec">Download CV</button>
             <button class="btn-primary">Contact</button>
 
         </div>
@@ -83,7 +137,12 @@
 
     </header>
     <main>
-
+    <section class="about">
+      <h3 class="section-title">About Me</h3>
+      <p class="section-description">
+        I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.
+      </p>  
+    </section>
     </main>
     <footer>
 
