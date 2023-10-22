@@ -4,16 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>devoloper portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="images/portfolio">
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        body{
+            font-family: 'Open Sans', sans-serif; 
+        }
+        .nav{
+            color: var(--Dark-01, #181818);
+            font-size: 45px;
+            font-weight: 800;
+        }
+        .text-primary{
+            color: #FD6E0A;
+        }
+        .btn-primary{
+            border-radius: 5px;
+            background: #FD6E0A;
+            border: 0;
+            font-size: 20px;
+            color: white;
+            font-weight: 700;
+            padding: 15px 35px;
+
+        }
+        nav > ul{
+            display: flex;
+            align-items: center;
+            
+        }
+        nav li{
+            list-style: none;
+            margin-right: 50px;
+        }
+        nav a{
+            text-decoration: none;
+            color: var(--Dark-02, #474747);
+        }
+    </style>
 </head>
 <body>
     <header>
-
+     <nav>
+        <h3 class="nav">Ma<span class="text-primary">r</span>y</h3>
+        <ul>
+           <li><a href="">portfolio</a></li>
+           <li><a href="">Blog</a></li>
+           <li><button class="btn-primary">Hire Me</button></li>
+        </ul>
+     </nav>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
     
 </body>
