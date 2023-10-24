@@ -166,6 +166,7 @@ margin-bottom: 10px;
         background-color: #FFF8F3; 
         padding: 130px 230px;
         margin-top: 100px;
+        gap: 117px;
        }
        .resume-container{
         margin: 30px;
@@ -177,6 +178,22 @@ margin-bottom: 10px;
        .resume-item-description{
         color: #757575;
        }
+       .footer-column{
+       width: 50%;
+       }
+       .contact input[type="text"], .contact input[type="email"], textarea{
+        display: block;
+        margin-bottom: 25px;
+        padding: 18px 35px;
+        color: #757575;
+        border-radius: 5px;
+background:  #FFF;
+border: 0;
+       }
+       .social-link a{
+        margin-right: 25px;
+       }
+       
        
        
     </style>
@@ -326,6 +343,12 @@ margin-bottom: 10px;
         </div>
         <div class="footer-column">
             <h3 class="section-title">Let’s Message me</h3>
+            <form class="contact">
+            <input type="text" placeholder="your name">
+            <input type="email" placeholder="your email">
+            <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <input class="btn-primary" type="submit" value="submit">
+            </form>
         </div>
     </footer>
     
